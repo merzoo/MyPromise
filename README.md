@@ -22,7 +22,5 @@
 
 参考：
 
-[1]: https://github.com/promises-aplus/promises-spec	"PromiseA+ 规范"
-
-
+https://github.com/promises-aplus/promises-spec
 

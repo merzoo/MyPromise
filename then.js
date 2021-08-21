@@ -1,6 +1,7 @@
 const resolvePromise = require("./resolvePromise");
 
 function then(onfulfilled, onrejected) {
+  // data => data，当onfulfilled不为函数时，让这个值直接传递到下一个promise then
   onfulfilled =
     typeof onfulfilled === "function" ? onfulfilled : (data) => data;
 

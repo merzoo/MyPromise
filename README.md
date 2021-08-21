@@ -5,5 +5,5 @@
 - [x] Promise 构造函数
 - [x] Promise.prototype.then
 - [x] Promise.prototype.then chain 链式调用
-- [ ] Promise 穿透实现
+- [x] Promise 穿透实现
 

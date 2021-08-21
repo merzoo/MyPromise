@@ -13,12 +13,12 @@
 
 静态方法及其他方法实现：
 
-- [ ] promise.prototype.reject
-- [ ] Promise.resolve
-- [ ] Promise.reject
-- [ ] Promise.all
-- [ ] Promise.race
-- [ ] Promise.finally (不属于规范范畴类，顺手实现了)
+- [x] promise.prototype.reject
+- [x] Promise.resolve
+- [x] Promise.reject
+- [x] Promise.all
+- [x] Promise.race
+- [x] Promise.finally (不属于规范范畴类，顺手实现了)
 
 参考：
 

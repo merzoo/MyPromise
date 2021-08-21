@@ -33,6 +33,11 @@ class Promise {
       });
     };
 
-    executor(resolve, reject);
+    // 预防构造函数报错，直接 reject
+    try {
+      executor(resolve, reject);
+    } catch (e) {
+      reject(e);
+    }
   }
 }
